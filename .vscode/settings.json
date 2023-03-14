@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "on",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}

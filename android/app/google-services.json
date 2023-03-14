@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92221149052",
+    "project_id": "hire-that-63aa8",
+    "storage_bucket": "hire-that-63aa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92221149052:android:0d11d22d8d4f9489a3def9",
+        "android_client_info": {
+          "package_name": "com.hirethat.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92221149052-3in9j8k0u32qlklhiqh6hdakplg659d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-vImwc4bmt_xOMP__ZCCkUuJj3CRE6NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92221149052-3in9j8k0u32qlklhiqh6hdakplg659d6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "92221149052-nodrt7voj19d9v5lbn71hursc1f24d55.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hirethat.ios",
+                "app_store_id": "1544097204"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

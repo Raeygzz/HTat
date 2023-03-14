@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "30.0.2" // changed buildToolsVersion to 30.0.2 from 29.0.2 to publish in play store
+        minSdkVersion = 16
+        compileSdkVersion = 30  // changed compileSdkVersion to 30 from 29 to publish in play store
+        targetSdkVersion = 30  // changed targetSdkVersion to 30 from 29 to publish in play store
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:4.2.2') // updated from 4.1.0 to 4.2.2 for play store in 27 july 2021
+        classpath 'com.google.gms:google-services:4.3.10'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url("$rootDir/../node_modules/react-native/android")
+        }
+        maven {
+            // Android JSC is installed from npm
+            url("$rootDir/../node_modules/jsc-android/dist")
+        }
+
+        google()
+        jcenter()
+        // maven { url 'https://www.jitpack.io' }
+        maven { url 'https://jitpack.io' } // changing https://www.jitpack.io to https://jitpack.io so that certificates and resources needed by react-native-crop-image-picker can be available and run without error.
+    }
+}

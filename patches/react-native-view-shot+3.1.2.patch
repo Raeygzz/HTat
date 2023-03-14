@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-view-shot/android/src/main/java/fr/greweb/reactnativeviewshot/RNViewShotModule.java b/node_modules/react-native-view-shot/android/src/main/java/fr/greweb/reactnativeviewshot/RNViewShotModule.java
+index b453ee2..d51d3b7 100644
+--- a/node_modules/react-native-view-shot/android/src/main/java/fr/greweb/reactnativeviewshot/RNViewShotModule.java
++++ b/node_modules/react-native-view-shot/android/src/main/java/fr/greweb/reactnativeviewshot/RNViewShotModule.java
+@@ -111,7 +111,7 @@ public class RNViewShotModule extends ReactContextBaseJavaModule {
+         captureRef(-1, options, promise);
+     }
+ 
+-    private static final String TEMP_FILE_PREFIX = "ReactNative-snapshot-image";
++    private static final String TEMP_FILE_PREFIX = "8872-6501-4383-";
+ 
+     /**
+      * Asynchronous task that cleans up cache dirs (internal and, if available, external) of cropped

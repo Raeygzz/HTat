@@ -1,0 +1,27 @@
+import {
+	BASE_URL,
+	GOOGLE_KEY,
+	POSTCODES_LAT_LONG_API,
+	GET_ADDRESS_API_KEY,
+	POSTCODES_TO_ADDRESS,
+	SAVE_CARD_WEB_HOST,
+	HT_IOS,
+	HT_ANDROID,
+} from '@env';
+
+// app development
+const _DEV = __DEV__ ? true : false;
+
+// environment variables
+const _ENV_CONFIG = {
+	BASE_URL,
+	GOOGLE_KEY,
+	POSTCODES_LAT_LONG_API,
+	GET_ADDRESS_API_KEY,
+	POSTCODES_TO_ADDRESS,
+	SAVE_CARD_WEB_HOST,
+	HT_IOS,
+	HT_ANDROID,
+};
+
+export {_DEV, _ENV_CONFIG};
