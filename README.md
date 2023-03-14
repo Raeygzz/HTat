@@ -1,6 +1,6 @@
-# H That App
+# That App
 
-**H That App** is a mobile app for both platform (iOS & Android), which follow the **react-native-starter** template standard and best practices for react-native project.
+**That App** is a mobile app for both platform (iOS & Android), which follow the **react-native-starter** template standard and best practices for react-native project.
 
 © 2020. All Rights Reserved.
 
